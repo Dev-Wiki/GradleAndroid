@@ -1,0 +1,11 @@
+ext {
+
+    compileSdk = 25
+    buildTools = '25.0.2'
+    minSdk = 15
+    targetSdk = 25
+
+    fileTree = fileTree(include: ['*.jar'], dir: 'libs')
+    supportAppCompat = 'com.android.support:appcompat-v7:25.2.0'
+    junit = 'junit:junit:4.12'
+}
