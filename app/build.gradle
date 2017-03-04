@@ -1,5 +1,3 @@
-import java.security.KeyStore
-
 apply plugin: 'com.android.application'
 
 android {
@@ -15,10 +13,10 @@ android {
 
     signingConfigs {
         release {
-            storeFile file("release.jks")
-            storePassword "release"
-            keyAlias "release"
-            keyPassword "release"
+            storeFile file(System.getProperty("keyStore"))
+            storePassword System.getProperty("keyStorePswd")
+            keyAlias System.getProperty("keyAlias")
+            keyPassword System.getProperty("keyAliasPswd")
         }
     }
 
