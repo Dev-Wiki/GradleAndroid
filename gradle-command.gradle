@@ -1,0 +1,8 @@
+task printProperties<< {
+    println(project)
+    println(project.name)
+    println(project.buildDir)
+    println(project.buildFile)
+    println(project.version)
+    println(project.path)
+}
