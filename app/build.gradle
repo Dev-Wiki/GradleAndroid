@@ -22,4 +22,7 @@ dependencies {
     compile fileTree
     compile supportAppCompat
     testCompile junit
+    compile devlog
+    compile project(':androidlib')
+    compile project(':javalib')
 }

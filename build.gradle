@@ -2,6 +2,7 @@
 apply from: 'config.gradle'
 buildscript {
     repositories {
+        mavenCentral()
         jcenter()
     }
     dependencies {
@@ -14,6 +15,7 @@ buildscript {
 
 allprojects {
     repositories {
+        mavenCentral()
         jcenter()
     }
 }

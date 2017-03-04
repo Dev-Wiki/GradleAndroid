@@ -8,4 +8,5 @@ ext {
     fileTree = fileTree(include: ['*.jar'], dir: 'libs')
     supportAppCompat = 'com.android.support:appcompat-v7:25.2.0'
     junit = 'junit:junit:4.12'
+    devlog = 'net.devwiki.log:log:0.0.2'
 }
